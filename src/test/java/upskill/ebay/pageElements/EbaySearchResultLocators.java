@@ -22,7 +22,7 @@ public class EbaySearchResultLocators {
 	@FindBy(xpath="//input[@aria-label='Unbranded']")
 	public WebElement cbxBrandUnbranded;
 	
-	//Validate Shoes Items
+	//Validate Shoes Items 3333333333333
 	@FindBy(xpath="//span[2][contains(text(),'Shoes')]")
 	public WebElement txtShoes;
 	
@@ -64,5 +64,15 @@ public class EbaySearchResultLocators {
 	//Validate Country United States
 	@FindBy(xpath="//div[contains(text(),'United States')]")
 	public WebElement cbxValidateUSA;
+	
+	
+	//Search for Big and Tall Tee Link
+	@FindBy(xpath="//span[contains(text(),'Big & Tall Cotton Tee. Sizes 4 XLT to 8XLT. With & without pockets. MADE IN USA')]")
+	public WebElement txtBigTallTee;
+	
+	
+	
+	
+	
 	
 } 

@@ -99,6 +99,16 @@ public class EbaySearchResultActions {
 		}
 	}
 	
+	public void selectBigTallTee(){
+		//Option 1
+		EbaySearchResultLocatorsObj.txtBigTallTee.click();
+		
+	}
+	
+	
+	
+	
+	
 	
 	
 }

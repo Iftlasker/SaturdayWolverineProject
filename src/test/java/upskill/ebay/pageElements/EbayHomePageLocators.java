@@ -18,17 +18,24 @@ public class EbayHomePageLocators {
 	public WebElement ctgSearch;
 	
 	//Search Book Category
-	@FindBy(xpath="//option[contains(text(),'Books')]")
+	@FindBy(xpath="//option[contains(text(),'Books3434')]")
 	public WebElement bookSearch;
 	
 	//Search Electronics Link
-	@FindBy(linkText="Electronics")
+	@FindBy(linkText="Electronics44444")
 	public WebElement ElectronicSearch;
 	
 	//Search Toy Link
 	@FindBy(linkText="Toys")
 	public WebElement ToySearch;
 	
+	//My Ebay Link
+	@FindBy(xpath="//a[@title='My eBay']")
+	public WebElement linkMyEbay;
+	
+	//Summary
+	@FindBy(xpath="//a[contains(text(),'Summary')]")
+	public WebElement linkSummary;
 	
 
 }
