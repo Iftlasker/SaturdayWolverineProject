@@ -15,7 +15,7 @@ public class AfterActions {
 		
 		if(Scenario.isFailed()){
 			//TakeScreenshotObj.screenshots();
-			//Scenario.embed(((TakesScreenshot) SetupDrivers.driver).getScreenshotAs(OutputType.BYTES),"image/png");
+			Scenario.embed(((TakesScreenshot) SetupDrivers.driver).getScreenshotAs(OutputType.BYTES),"image/png");
 			
 			//TakesScreenshot ts = (TakesScreenshot) SetupDrivers.driver;
 			//byte[] src = ts.getScreenshotAs(OutputType.BYTES);
